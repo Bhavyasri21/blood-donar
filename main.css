@@ -2,7 +2,6 @@ body
 {
  background: url("bl.jpeg");
  height: 100%;
- width:100%
  background-position: center;
 backrepeat: no-repeat;
 background-size: cover;
@@ -32,8 +31,8 @@ background-size: cover;
 
 /* Main level */
 .menu {			
-  margin: 5% auto;
-  width: 80%;
+  margin: 50px auto;
+  width: 800px;
   /* http://www.red-team-design.com/horizontal-centering-using-css-fit-content-value */
   width: -moz-fit-content;
   width: -webkit-fit-content;
@@ -53,7 +52,7 @@ background-size: cover;
   text-transform: uppercase;
   text-decoration: none;
   font-family: Arial, Helvetica;
-  font-size: 1.4%;
+  font-size: 14px;
 }		
 
 .menu li:hover {
@@ -68,16 +67,16 @@ background-size: cover;
 /* Dropdown */
 .submenu {
   position: absolute;
-  width: 20%;
-  left: 50%; margin-left: -10%;
+  width: 200px;
+  left: 50%; margin-left: 100px;
   transform: skewX(-25deg);
   transform-origin: left top;
 }
 
 .submenu li {
    position: absolute;
-  width: 20%;
-  left: 50%; margin-left: -10%;
+  width: 200px;
+  left: 50%; margin-left: 100px;
   transform: skewX(-25deg);
   transform-origin: left top;
   background-color: #34495e;
@@ -86,8 +85,8 @@ background-size: cover;
 }
 .submenu li {
    position: absolute;
-  width: 20%;
-  left: 50%; margin-left: -10%;
+  width: 200px;
+  left: 50%; margin-left: 100px;
   transform: skewX(-25deg);
   transform-origin: left top;
   background-color: #34495e;
@@ -117,8 +116,8 @@ background-size: cover;
 .submenu > li:nth-child(odd) > a {
 
    position: absolute;
-  width: 20%;
-  left: 50%; margin-left: -10%;
+  width: 200px;
+  left: 50%; margin-left: 100px;
   transform: skewX(-25deg);
   transform-origin: left top;
   background-color: #34495e;
@@ -133,8 +132,8 @@ background-size: cover;
 }
 .submenu li {
    position: absolute;
-  width: 20%;
-  left: 50%; margin-left: -10%;
+  width: 200px;
+  left: 50%; margin-left: 100px;
   transform: skewX(-25deg);
   transform-origin: left top;
   background-color: #34495e;
@@ -160,8 +159,8 @@ background-size: cover;
 .submenu,
 .submenu li {
   position: absolute;
-  width: 20%;
-  left: 50%; margin-left: -10%;
+  width: 200px;
+  left: 50%; margin-left: 100px;
   transform: skewX(-25deg);
   transform-origin: left top;
   opacity: 0;
@@ -170,8 +169,8 @@ background-size: cover;
 
 .submenu li {
   position: absolute;
-  width: 20%;
-  left: 50%; margin-left: -10%
+  width: 200px;
+  left: 50%; margin-left: 100px;
   transform: skewX(-25deg);
   transform-origin: left top;
   transition: .2s ease transform;
