@@ -31,8 +31,8 @@ background-size: cover;
 
 /* Main level */
 .menu {			
-  margin: 50px auto;
-  width: 800px;
+  margin: 5% auto;
+  width: 80%;
   /* http://www.red-team-design.com/horizontal-centering-using-css-fit-content-value */
   width: -moz-fit-content;
   width: -webkit-fit-content;
@@ -52,7 +52,7 @@ background-size: cover;
   text-transform: uppercase;
   text-decoration: none;
   font-family: Arial, Helvetica;
-  font-size: 14px;
+  font-size: 1.4%;
 }		
 
 .menu li:hover {
@@ -67,16 +67,16 @@ background-size: cover;
 /* Dropdown */
 .submenu {
   position: absolute;
-  width: 200px;
-  left: 50%; margin-left: -100px;
+  width: 20%;
+  left: 50%; margin-left: -10%;
   transform: skewX(-25deg);
   transform-origin: left top;
 }
 
 .submenu li {
    position: absolute;
-  width: 200px;
-  left: 50%; margin-left: -100px;
+  width: 20%;
+  left: 50%; margin-left: -10%;
   transform: skewX(-25deg);
   transform-origin: left top;
   background-color: #34495e;
@@ -85,8 +85,8 @@ background-size: cover;
 }
 .submenu li {
    position: absolute;
-  width: 200px;
-  left: 50%; margin-left: -100px;
+  width: 20%;
+  left: 50%; margin-left: -10%;
   transform: skewX(-25deg);
   transform-origin: left top;
   background-color: #34495e;
@@ -105,7 +105,7 @@ background-size: cover;
   top: -125%;
   height: 100%;
   width: 100%;			
-  box-shadow: 0 0 50px rgba(0, 0, 0, .9);			
+  box-shadow: 0 0 5% rgba(0, 0, 0, .9);			
 }		
 
 /* Odd stuff */
@@ -116,8 +116,8 @@ background-size: cover;
 .submenu > li:nth-child(odd) > a {
 
    position: absolute;
-  width: 200px;
-  left: 50%; margin-left: -100px;
+  width: 20%;
+  left: 50%; margin-left: -10%;
   transform: skewX(-25deg);
   transform-origin: left top;
   background-color: #34495e;
@@ -132,8 +132,8 @@ background-size: cover;
 }
 .submenu li {
    position: absolute;
-  width: 200px;
-  left: 50%; margin-left: -100px;
+  width: 20%;
+  left: 50%; margin-left: -10%;
   transform: skewX(-25deg);
   transform-origin: left top;
   background-color: #34495e;
@@ -159,8 +159,8 @@ background-size: cover;
 .submenu,
 .submenu li {
   position: absolute;
-  width: 200px;
-  left: 50%; margin-left: -100px;
+  width: 20%;
+  left: 50%; margin-left: -10%;
   transform: skewX(-25deg);
   transform-origin: left top;
   opacity: 0;
@@ -169,8 +169,8 @@ background-size: cover;
 
 .submenu li {
   position: absolute;
-  width: 200px;
-  left: 50%; margin-left: -100px;
+  width: 20%;
+  left: 50%; margin-left: -10%
   transform: skewX(-25deg);
   transform-origin: left top;
   transition: .2s ease transform;
